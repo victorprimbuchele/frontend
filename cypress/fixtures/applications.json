@@ -1,0 +1,47 @@
+{
+  "pending": {
+    "id": "app-123",
+    "name": "João Silva",
+    "email": "joao@example.com",
+    "company": "Empresa XYZ",
+    "motivation": "Quero participar do networking",
+    "status": "PENDING",
+    "createdAt": "2024-01-01T00:00:00.000Z"
+  },
+  "approved": {
+    "id": "app-456",
+    "name": "Maria Santos",
+    "email": "maria@example.com",
+    "company": null,
+    "motivation": "Interesse em networking",
+    "status": "APPROVED",
+    "createdAt": "2024-01-02T00:00:00.000Z"
+  },
+  "list": [
+    {
+      "id": "app-1",
+      "name": "João Silva",
+      "email": "joao@example.com",
+      "company": "Empresa XYZ",
+      "motivation": "Quero participar",
+      "status": "PENDING",
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "app-2",
+      "name": "Maria Santos",
+      "email": "maria@example.com",
+      "company": null,
+      "motivation": "Interesse em networking",
+      "status": "PENDING",
+      "createdAt": "2024-01-02T00:00:00.000Z"
+    }
+  ],
+  "meta": {
+    "page": 1,
+    "limit": 10,
+    "total": 2,
+    "totalPages": 1
+  }
+}
+

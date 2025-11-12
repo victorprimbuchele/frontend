@@ -1,0 +1,41 @@
+{
+  "mine": [
+    {
+      "id": "ref-1",
+      "fromMemberId": "member-1",
+      "toMemberId": "member-2",
+      "companyOrContact": "Empresa ABC",
+      "description": "Indicação de cliente potencial",
+      "status": "NEW",
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    }
+  ],
+  "toMe": [
+    {
+      "id": "ref-2",
+      "fromMemberId": "member-2",
+      "toMemberId": "member-1",
+      "companyOrContact": "Empresa XYZ",
+      "description": "Indicação recebida",
+      "status": "NEW",
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    }
+  ],
+  "meta": {
+    "mine": {
+      "page": 1,
+      "limit": 10,
+      "total": 1,
+      "totalPages": 1
+    },
+    "toMe": {
+      "page": 1,
+      "limit": 10,
+      "total": 1,
+      "totalPages": 1
+    }
+  }
+}
+

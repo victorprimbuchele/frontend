@@ -28,3 +28,5 @@ sudo apt-get install -y \
 echo "Dependências instaladas! Tente executar: npm run cypress:run"
 
 
+
+
